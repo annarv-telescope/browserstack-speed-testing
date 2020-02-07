@@ -1,0 +1,12 @@
+# config/cucumber.yml
+##YAML Template
+---
+default: -p chromeheadless -p resolution -x --format pretty -r src/code
+
+resolution: BROWSER_WIDTH='1920' BROWSER_HEIGHT='1080'
+
+chrome: BROWSER='Chrome'
+chromeheadless: BROWSER='ChromeHeadless'
+firefox: BROWSER='Firefox'
+firefoxheadless: BROWSER='FirefoxHeadless'
+safari: BROWSER='Safari'
